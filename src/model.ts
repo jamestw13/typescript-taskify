@@ -1,5 +1,4 @@
-export interface Todo {
+export interface TaskModel {
   id: number;
-  todo: string;
-  isDone: boolean;
+  text: string;
 }
